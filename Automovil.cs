@@ -11,9 +11,6 @@ namespace TransporteG2
         public Automovil()
         {
             Encender();
-            Console.WriteLine("Tanque vacío, rellenar con gasolina.");
-
-      
 
         }
         #region Metodos 

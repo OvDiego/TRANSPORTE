@@ -40,14 +40,31 @@ namespace TransporteG2
         {
             int RMP = 5200;
             Console.WriteLine("Motor encendido");
+
         }
 
+        public void LimpDisp()
+        {
+            Thread.Sleep(2000);
+            Console.Clear();
+        }
+       
         public virtual void Acelerar()
         {
-
+            for (int i = Velocidad; i > 21; i++)
+            {
+                velocidad = Velocidad;
+                Console.WriteLine("Acelerando, velocidad = {0}", Velocidad);
+            }
         }
         public virtual void Frenar()
         {
+            for (int i = Velocidad; i < 5; i--)
+            {
+                velocidad = Velocidad;
+                Console.WriteLine("Frenando, velocidad = {0}", Velocidad);
+            }
+
 
         }
 

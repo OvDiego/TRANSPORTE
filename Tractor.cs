@@ -28,7 +28,27 @@ namespace TransporteG2
         public Tractor()
         {
             Encender();
-            Console.WriteLine("Tanque vacío, rellenar con Diesel.");
+            
+            LimpDisp();
+            Velocidad = 15;
+            Console.WriteLine("Velocidad: {0}", Velocidad);
+            LimpDisp();
+            if (Velocidad > 20)
+            {
+                Frenar();
+
+            }
+            else if (Velocidad < 5)
+            {
+                Acelerar();
+            }
+            else
+            {
+                LimpDisp();
+            }
+            
+
+
         }
         #region Metodos 
 
