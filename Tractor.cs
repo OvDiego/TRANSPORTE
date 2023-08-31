@@ -24,32 +24,49 @@ namespace TransporteG2
                 }
             }
         }
+
+        public override int Aumento
+        {
+            get => base.Aumento;
+            set
+            {
+                if (1 < value && value < 25)
+                {
+                    aumento = value;
+                }
+
+                else
+                {
+                    aumento = 5;
+                }
+            }
+        }
         #endregion
+
+        #region Constructor 
         public Tractor()
         {
             Encender();
+            Console.WriteLine("Motor del tractor encendido");
             
-            LimpDisp();
-            Velocidad = 15;
-            Console.WriteLine("Velocidad: {0}", Velocidad);
-            LimpDisp();
+            Velocidad = 21;
+            Aumento = 5;
+
+            Console.WriteLine("Velocidad del tractor: {0}[km/h]", Velocidad);
+            
             if (Velocidad > 20)
             {
                 Frenar();
 
             }
-            else if (Velocidad < 5)
+            else
             {
                 Acelerar();
             }
-            else
-            {
-                LimpDisp();
-            }
-            
-
 
         }
+        #endregion
+
         #region Metodos 
 
         #endregion

@@ -14,6 +14,7 @@ namespace TransporteG2
         private int kilometraje;
         public string combustible;
         internal int velocidad;
+        internal int aumento;
         
 
 
@@ -30,6 +31,18 @@ namespace TransporteG2
                     velocidad = value;
                 else
                     velocidad = 60;
+            }
+        }
+
+        public virtual int Aumento
+        {
+            get => aumento;
+            set
+            {
+                if (20 < value && value < 40)
+                    aumento = value;
+                else
+                    aumento = 30;
             }
         }
         #endregion
@@ -51,22 +64,16 @@ namespace TransporteG2
        
         public virtual void Acelerar()
         {
-            for (int i = Velocidad; i > 21; i++)
-            {
-                velocidad = Velocidad;
-                Console.WriteLine("Acelerando, velocidad = {0}", Velocidad);
-            }
+            Console.WriteLine("Vas muy lento, aumenta tu velocidad a {0}[km/h]", velocidad + aumento);
         }
         public virtual void Frenar()
         {
-            for (int i = Velocidad; i < 5; i--)
-            {
-                velocidad = Velocidad;
-                Console.WriteLine("Frenando, velocidad = {0}", Velocidad);
-            }
-
-
+            Console.WriteLine("Vas muy rápido, disminuye tu velocidad a {0} [km/h]", velocidad - aumento);
         }
+         
+
+
+        
 
 
 
