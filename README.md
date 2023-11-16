@@ -1,6 +1,6 @@
 # Documentación
 
-## Diagramas UML.
+##Diagramas UML.
 Diagrama de clases:
 ![](https://i.imgur.com/ZE1ZsV8.jpg)
 
@@ -8,6 +8,6 @@ Diagrama de clases:
 ## Comienzo.
 
 
-## Tutorial.
+##Tutorial.
 
-## Casos más comúnes.
+##Casos más comúnes.
