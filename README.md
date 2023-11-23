@@ -11,9 +11,8 @@
 [TOC]
 
 # Diagramas UML.
-Diagrama de clases:
-![](https://i.imgur.com/ZE1ZsV8.jpg)
-#Comienzo.
+[Diagrama de Clases](https://imgur.com/ZE1ZsV8)
+# Comienzo.
 Este proyecto ha sido diseñado para una administración eficiente de la información médica de los pacientes, que se puede usar como el usuario lo necesite:
 + Instalación:
     + Descarga el proyecto desde el repositorio (LINK DEL REPOSITORIO) o copia el código del sistema de archivos si lo tienes localmente. Abre Visual Studio.
@@ -29,9 +28,11 @@ Una vez abierto el proyecto:
     + Selecciona la opción "Iniciar".
 ![](https://i.imgur.com/Upb8JA0.png)
 + Nuevo usuario: 
-	+ Selecciona la opción "Registrarte", llena tus datos y selecciona la opción "Registrarse" 
-    + Realiza los pasos de inicio sesión. 
-![](https://i.imgur.com/9EHHs0N.png) ![](https://i.imgur.com/LdFgYK8.png)
+	+ Selecciona la opción "Registrarte".
++ ![](https://i.imgur.com/9EHHs0N.png)
+	+ Llena tus datos y selecciona la opción "Registrarse".
+ + ![](https://i.imgur.com/LdFgYK8.png)
+	+ Realiza los pasos de inicio sesión. 
 + Cerrar sesión:
 	+ Cuando inicies sesión, el programa te dirigirá al menu HOME: 
 ![](https://i.imgur.com/QIraGum.png)
@@ -39,15 +40,24 @@ Una vez abierto el proyecto:
 
 + Creación de un expediente:
 	+ Dirígete al menú "Configuración" con el logo de un engrane, ubicado en la barra lateral izquierda de la pantalla. 
+![](https://i.imgur.com/8P114QN.png)
 	+ Da click en el ícono del candado una vez para Desbloquear los campos y comienza a llenar los datos de tu paciente.
-	+ Para desbloquear un campo, cambia la opción a "Si" y especifica el campo.
-	+ Para agregar y quitar una enfermedad manipula los botones "Agregar y Quitar Enfermedad", (Aplica para Enfermedades previas, Hospitalizaciones Previas, Transfusiones, Cirugías, Fracturas).
+![](https://i.imgur.com/9kA2l07.png)
+	+ Para desbloquear un campo de llena en las Alergías, cambia la opción a "Si" y especifca el campo.
+![](https://i.imgur.com/Rm6fUwY.png)
+	+ Para agregar y quitar una Enfermedad Hereditaria manipula los botones "Agregar" y "Quitar Enfermedad", (Aplica para Enfermedades previas, Hospitalizaciones Previas, Transfusiones, Cirugías, Fracturas).
+![](https://i.imgur.com/LdUtmI4.png)
 	+ Registra los signos vitales del paciente.
++ ![](https://i.imgur.com/cEmJkvF.png)
 	+ Por último, da click por segunda vez en el ícono del candado para bloquear tus movimientos, y despues da click en el botón "Actualizar".
+![](https://i.imgur.com/YGq2tzo.png)
+![](https://i.imgur.com/dUgls6r.png)
 
 + Visualización de un expediente:
-	+ Dirígete al menú "Perfil" con el logo de una persona, ubicado en la barra lateral izquierda de la pantalla. 
+	+ Dirígete al menú "Perfil" con el logo de una persona, ubicado en la barra lateral izquierda de la pantalla.
+   ![](https://i.imgur.com/swAVclJ.png)
 	+ Podrás visualizar el expediente creado.
+![](https://i.imgur.com/CQwa1Sr.png)
 
 + Agendar una cita:
 	+ Dirígete al menú "Home" con el logo de una casa, ubicado en la barra lateral izquierda de la pantalla. 
@@ -55,11 +65,4 @@ Una vez abierto el proyecto:
 	+ Empieza a llenar los campos y da click en "Reservar".
 
 
-# Casos más comunes.
-
-
-
-
-
-
-## Casos más comúnes.
+#Casos más comunes.
