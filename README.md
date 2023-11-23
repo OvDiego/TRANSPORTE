@@ -10,7 +10,7 @@
 
 [TOC]
 
-#Diagramas UML.
+# Diagramas UML.
 Diagrama de clases:
 ![](https://i.imgur.com/ZE1ZsV8.jpg)
 #Comienzo.
@@ -22,7 +22,7 @@ Este proyecto ha sido diseñado para una administración eficiente de la informa
 	+Asegurate de configurar una conexión a una base de datos **COMPLETAR** y la configuración de la API **COMPLETAR**
     + Antes de ejecutar el proyecto, asegúrate de que esté compilado correctamente. Haz clic en "Compilar" en la barra de menú y luego en "Compilar solución". Si no hay errores, puedes ejecutar el proyecto presionando F5 o haciendo clic en "Iniciar" (botón de reproducción).
 
-#Tutorial.
+# Tutorial.
 Una vez abierto el proyecto:
 + Inicio de sesión:
 	+ Introduce tus credenciales (usuario y contraseña), sin faltas de otrografía.
@@ -55,7 +55,7 @@ Una vez abierto el proyecto:
 	+ Empieza a llenar los campos y da click en "Reservar".
 
 
-#Casos más comunes.
+# Casos más comunes.
 
 
 
