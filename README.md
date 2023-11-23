@@ -1,10 +1,11 @@
 # Documentación
 ## Integrantes: 
-- Cruz Oviedo Diego
-- Liceaga Sánchez Liliana
-- Meza Gamiño Manuel Alberto 
-- Paredes Rivera Luis Fernando
-- Rodríguez Martínez Abraham
+- [ ] Cruz Oviedo Diego
+- [ ] GFM task list 3
+- [x] Liceaga Sánchez Liliana
+- [x] Meza Gamiño Manuel Alberto 
+- [x] Paredes Rivera Luis Fernando
+- [x] Rodríguez Martínez Abraham
 
 [TOCM]
 
