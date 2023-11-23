@@ -6,6 +6,14 @@
 - Paredes Rivera Luis Fernando
 - Rodríguez Martínez Abraham
 
+[TOCM]
+
+[TOC]
+
+#Diagramas UML.
+#Comienzo.
+#Tutorial.
+#Casos más comunes.
 
 ## Diagramas UML.
 Diagrama de clases:
