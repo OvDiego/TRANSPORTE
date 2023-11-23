@@ -1,15 +1,18 @@
 # Documentación
 ## Integrantes: 
 - [ ] Cruz Oviedo Diego
-- [ ] GFM task list 3
 - [ ] Liceaga Sánchez Liliana
 - [ ] Meza Gamiño Manuel Alberto 
 - [ ] Paredes Rivera Luis Fernando
 - [ ] Rodríguez Martínez Abraham
 
-[TOCM]
-
-[TOC]
+**Contenido**
+1. [Documentación.](#documentación)
+1.1 [Integrantes.](#integrantes)
+2. [Diagramas UML.](#diagramas-uml)
+3. [Comienzo.](#comienzo)
+4. [Tutorial.](#tutorial)
+5. [Casos más comunes.](#casos-más-comunes)
 
 # Diagramas UML.
 [Diagrama de Clases](https://imgur.com/ZE1ZsV8)
@@ -66,4 +69,4 @@ Una vez abierto el proyecto:
 	+ Empieza a llenar los campos y da click en "Reservar".
 
 
-#Casos más comunes.
+# Casos más comunes.
