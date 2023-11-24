@@ -70,3 +70,8 @@ Una vez abierto el proyecto:
 
 
 # Casos más comunes.
++ Pérdida de datos:
+    + Asegurate de llenar correctamente todos los campos.
+> :heavy_exclamation_mark: **IMPORTANTE** 
+>
+> Asegurate de haber bloqueado/desbloqueado tus movimientos antes de dar click en el botón "Actualizar".
